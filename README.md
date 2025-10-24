@@ -1,0 +1,3 @@
+O projeto aplica o padrão State para gerenciar os diferentes estágios de um pedido online. Cada estado (Novo, Pago, Enviado, Entregue e Cancelado) possui seu próprio comportamento, definindo o que pode ou não acontecer em cada momento. Em vez de usar condicionais dentro da classe principal, cada estado sabe como reagir a ações como pagar, enviar, entregar e cancelar.
+
+O padrão State facilita a manutenção e expansão do sistema, pois novas regras podem ser adicionadas criando novos estados sem modificar a lógica principal do pedido. Além disso, garante que as transições sejam controladas e que ações inválidas gerem erros consistentes. Assim, o fluxo do pedido acontece de forma clara, organizada e fácil de evoluir.
